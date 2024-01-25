@@ -1,0 +1,14 @@
+tr td button {
+
+    font-size: 17px;
+    outline: none;
+    border: none;
+    border-right: 1px solid #000;
+    background-color: #DEF5E5;
+    padding-right: 10px;
+}
+
+tr td button:hover {
+    text-decoration: underline;
+}
+

@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+}
+
+body {
+    background-color: #DEF5E5;
+}
+.home-btn {
+position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 70px;
+    height: 40px;
+    border: 1px solid #9ED5C5;
+    background-color: #BCEAD5;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+.cont {
+    margin: 10px auto;
+    /* border: 1px solid red; */
+    width: 1500px;
+    height: auto;
+}
+
+label {
+    font-size: 20px;
+}
+
+.cont form input{
+    outline: none;
+    width: 300px;
+    height: 40px;
+    background-color: #BCEAD5;
+    border: 1px solid #9ED5C5;
+    border-radius: 10px;
+    padding-left: 5px;
+    margin: 5px 0;
+
+}
+
+.cont form textarea {
+    padding: 5px 0 0 5px;
+    outline: none;
+    background-color: #BCEAD5;
+    border: 1px solid #9ED5C5;
+    width: 300px;
+}
+
+.cont form button {
+    width: 180px;
+    margin: 5px 0;
+    height: 40px;
+    border: 1px solid #9ED5C5;
+    background-color: #BCEAD5;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.cont form a {
+    text-align: center;
+
+    width: 180px;
+    margin: 5px 0;
+    height: auto;
+    border: 1px solid #9ED5C5;
+    background-color: #BCEAD5;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.cont form {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+
+table,th ,td{
+    border: 1px solid #9ED5C5;
+    text-align: center;
+}
+
+a {
+    
+    text-decoration: none;
+    
+}
+
+
+
